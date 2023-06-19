@@ -39,4 +39,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: Exe Artifact
-          path: C:\Users\Szymon\Desktop\konwersja.py
+          path: D:\Szkoła\Studia\Narzędzia\Projekt\konwersja.exe
