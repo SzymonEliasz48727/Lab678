@@ -33,7 +33,7 @@ jobs:
           pip install argparse
 
       - name: build.exe
-        run: pyinstaller.exe --onefile --noconsole project.py
+        run: pyinstaller.exe --onefile --noconsole konwersja.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
